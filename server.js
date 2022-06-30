@@ -38,6 +38,7 @@ app.get("/login", function (req, res) {
         //'streaming'                        //  Play content and control playback on your other devices.
         //'user-follow-read'                 //  Access your followers and who you are following.
         redirect_uri,
+        show_dialog: true, // TODO: Get rid of this after testing
       })
   );
 });
